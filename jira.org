@@ -1,0 +1,26 @@
+* TODO
+* IN-PROGRESS
+** DONE Record commands I used to setup this related project, and other notes
+<2023-08-29 Tue 18:31>: Here are the related commands I used:
+#+begin_src bash
+sam@devstation ~/hub/repos/NextJSBlog $ npm install next react react-dom
+#+end_src
+
+<2023-08-29 Tue 18:37>: Here's the related command you can use to figure out 'npx' commands from NextJS:
+#+begin_src bash
+npx next --help
+#+end_src
+
+<2023-08-29 Tue 18:56>: Here's how to run a production build:
+#+begin_src bash
+sam@devstation ~/hub/repos/NextJSBlog $ npm run build
+sam@devstation ~/hub/repos/NextJSBlog $ npm run start
+#+end_src
+
+Types of pages generated with 'npm run build':
+- Static: Automatically rendered as static HTML (uses no initial props)
+- Server: Server-side renders at runtime (uses getInitialProps or getServerSideProps)
+- SSG: Static Site Generation
+- ISR: Incremental Static Regeneration (uses revalidate in getStaticProps)
+
+* COMPLETED
