@@ -1,5 +1,9 @@
 * TODO
 * IN-PROGRESS
+** TODO Record current course progress
+<2023-08-30 Wed 19:13>: Continue here:
+- https://onestaff.udemy.com/course/nextjs-by-example/learn/lecture/27442116#overview
+* COMPLETED
 ** DONE Record commands I used to setup this related project, and other notes
 <2023-08-29 Tue 18:31>: Here are the related commands I used:
 #+begin_src bash
@@ -22,5 +26,3 @@ Types of pages generated with 'npm run build':
 - Server: Server-side renders at runtime (uses getInitialProps or getServerSideProps)
 - SSG: Static Site Generation
 - ISR: Incremental Static Regeneration (uses revalidate in getStaticProps)
-
-* COMPLETED
