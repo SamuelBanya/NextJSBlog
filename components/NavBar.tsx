@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function NavBar() {
   return (
-    <nav className="NavBar">
+    <nav>
       <ul>
         <li>
           <Link href="/">
@@ -15,6 +15,20 @@ export default function NavBar() {
           </Link>
         </li>
       </ul>
+      <style jsx>{`
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline;
+
+}
+
+li:not(:first-child) {
+  margin-left: 0.75rem;
+}
+        `}</style>
     </nav>
   )
 }
