@@ -3,6 +3,9 @@
 ** TODO Record current course progress
 <2023-08-30 Wed 19:13>: Continue here:
 - https://onestaff.udemy.com/course/nextjs-by-example/learn/lecture/27442116#overview
+
+<2023-08-31 Thu 20:01>: Continue here:
+- https://onestaff.udemy.com/course/nextjs-by-example/learn/lecture/27455766#overview
 * COMPLETED
 ** DONE Record commands I used to setup this related project, and other notes
 <2023-08-29 Tue 18:31>: Here are the related commands I used:
