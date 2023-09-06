@@ -8,14 +8,14 @@ export async function getStaticProps() {
 
   console.log('data: ' + data);
 
-  const post = JSON.parse(data);
-
-  console.log('post: ' + JSON.stringify(post));
-
   return {
-    props: { post },
+    props: {
+      post: {
+        title: "First Post",
+        body: "My first post, as static props"
+      }
+    }
   };
-
 }
 
 function FirstPostPage({ post }) {
