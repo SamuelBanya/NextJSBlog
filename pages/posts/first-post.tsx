@@ -1,16 +1,8 @@
 import Head from 'next/head';
-import { readFile } from 'fs/promises';
+import { getPost } from '../../lib/posts';
 
 export async function getStaticProps() {
-  console.log('getStaticProps function called');
-
-  const data = await readFile('content/posts/first-post.json', 'utf8');
-
-  console.log('data: ' + data);
-
-  const post = JSON.parse(data);
-
-  console.log('post: ' + JSON.stringify(post));
+  const post = await getPost('first-post');
 
   return {
     props: { post },
@@ -29,6 +21,7 @@ function FirstPostPage({ post }) {
       <main>
         <h1>{post.title}</h1>
         <p>{post.body}</p>
+        <article dangerouslySetInnerHTML={{ __html: post.body }} />
       </main>
     </>
   );
