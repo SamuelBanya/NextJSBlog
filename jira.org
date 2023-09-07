@@ -13,6 +13,12 @@
 <2023-09-05 Tue 20:13>: Continue here:
 - https://onestaff.udemy.com/course/nextjs-by-example/learn/lecture/27504662#questions/18942022
 
+<2023-09-06 Wed 18:49>: NOTE:
+- I installed 'gray-matter' via this NPM command:
+#+begin_src bash
+sam@devstation ~/hub/repos/NextJSBlog $ npm install gray-matter
+#+end_src
+
 * COMPLETED
 ** DONE Record commands I used to setup this related project, and other notes
 <2023-08-29 Tue 18:31>: Here are the related commands I used:

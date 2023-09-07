@@ -1,11 +1,11 @@
 import { readFile } from "fs/promises";
 import { marked } from "marked";
+import matter from "gray-matter";
 
 export async function getPost(slug) {
   const source = await readFile(`content/posts/${slug}.md`, 'utf8');
-  const html = marked(source);
+  const { data: { date, title }, content } = matter(source);
+  const body = marked(source);
 
-  return {
-    body: html,
-  };
+  return { date, title, body };
 }

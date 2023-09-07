@@ -15,6 +15,9 @@ function HomePage() {
           <li>
             <Link href="/posts/first-post">First Post</Link>
           </li>
+          <li>
+            <Link href="/posts/second-post">Second Post</Link>
+          </li>
         </ul>
       </main>
     </>
