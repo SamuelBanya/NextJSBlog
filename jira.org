@@ -19,6 +19,9 @@
 sam@devstation ~/hub/repos/NextJSBlog $ npm install gray-matter
 #+end_src
 
+<2023-09-06 Wed 19:40>: Continue here:
+- https://onestaff.udemy.com/course/nextjs-by-example/learn/lecture/27538900#questions
+
 * COMPLETED
 ** DONE Record commands I used to setup this related project, and other notes
 <2023-08-29 Tue 18:31>: Here are the related commands I used:
